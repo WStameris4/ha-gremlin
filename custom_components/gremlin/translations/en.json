@@ -1,0 +1,41 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Sign in to Gremlin",
+        "description": "Use the same username and password as the GREMLIN Tank Monitoring app.",
+        "data": {
+          "username": "Username",
+          "password": "Password"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Re-enter your Gremlin password",
+        "description": "The password for {username} no longer works.",
+        "data": {
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Invalid username or password.",
+      "cannot_connect": "Could not reach the Gremlin service.",
+      "unknown": "Unexpected error."
+    },
+    "abort": {
+      "already_configured": "This account is already configured.",
+      "reauth_successful": "Re-authentication was successful.",
+      "unique_id_mismatch": "That password belongs to a different account."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "level": { "name": "Level" },
+      "volume": { "name": "Volume" },
+      "capacity": { "name": "Capacity" },
+      "last_reading": { "name": "Last reading" },
+      "last_delivery": { "name": "Last delivery" },
+      "next_delivery": { "name": "Next delivery estimate" }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "entity": {
+    "sensor": {
+      "level": { "default": "mdi:propane-tank" },
+      "volume": { "default": "mdi:propane-tank-outline" },
+      "capacity": { "default": "mdi:storage-tank-outline" },
+      "last_reading": { "default": "mdi:calendar-check" },
+      "last_delivery": { "default": "mdi:truck-check-outline" },
+      "next_delivery": { "default": "mdi:truck-fast-outline" }
+    }
+  }
+}
