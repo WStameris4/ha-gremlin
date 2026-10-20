@@ -7,7 +7,9 @@ delivery dates.
 
 > **Unofficial.** Angus publishes no API. This integration uses the private
 > backend of the consumer app, which can change without notice. It is not
-> affiliated with or endorsed by Angus Energy or your fuel dealer.
+> affiliated with or endorsed by Angus Energy or your fuel dealer. GREMLIN and
+> its logo are trademarks of Angus Monitoring Service, used here only to
+> identify the devices this integration works with.
 
 ## Installation (HACS)
 
